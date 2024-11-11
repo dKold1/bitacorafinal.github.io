@@ -1,0 +1,149 @@
+* {
+    /* outline: red 2px solid; */
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: auto;
+    background-color: #292929;
+
+}
+
+main {
+    height: auto;
+    width: 100%;
+}
+
+
+header {
+    position: fixed;
+    display: flex;
+    justify-content: right;
+    width: 100vw;
+    z-index: 10000;
+    transition: 1s;
+}
+
+header.abajo {
+    background-color: #5a5959;
+    transition: 1s;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    height: auto;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 2vw;
+}
+
+header.sticky {
+    padding: 3px;
+    background: #181818ed;
+    border-bottom: 3px solid #d32e2be7;
+    /* transition: .3s; */
+}
+
+
+nav a:hover {
+    transition: 0.6s;
+    text-shadow: 0 0 10px 50vw rgb(119, 18, 18);
+
+}
+
+/*scrollbar*/
+::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(#6B737D, #465F7D);
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    border-right: 2;
+    background-color: white;
+}
+
+
+.contenedor-presentacion {
+    background-image: url(../assets/tech-programacion.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-bitacora {
+
+    text-align: center;
+    width: auto;
+    font-family: "Madimi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem;
+    color: white;
+
+}
+
+.matricula {
+    color: white;
+    text-align: center;
+    width: auto;
+    font-family: "Madimi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+.tema-titulo {
+    color: white;
+    text-align: center;
+    height: auto;
+    margin: 10vh;
+    font-family: "Madimi One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.carta {
+    border: #121010 2px solid;
+    background-color: #4e4e4e;
+    height: auto;
+    width: 20%;
+    margin: 3%;
+    border-radius: 30px;
+}
+
+.texto-carta {
+    font-size: 1.5rem;
+    font-family: "Nunito", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2vw;
+    color: white;
+
+}
